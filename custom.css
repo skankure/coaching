@@ -32,3 +32,12 @@ p, a, li {
     padding-right:2rem !important;
   
 }
+
+.accordion-header {
+  font-weight: 600;;
+  font-family: Montserrat;
+}
+
+html {
+  scroll-behavior: smooth;
+}

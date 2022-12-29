@@ -20,7 +20,7 @@
   <header class="hero">
     <nav class="navbar">
       <div class="container-fluid">
-          <a class="navbar-brand mb-0 sub-header" href="#">
+          <a class="navbar-brand mb-0 sub-header">
             Jalebi Jodi
             <img src="jalebi-white.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
           </a>
@@ -31,12 +31,15 @@
         <div class="col-12 text-center">
           <h1>Ready for Love?</h1>
           <p class="sub-header" style="font-size: larger">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-          <i style="color:white"class="bi bi-chevron-down"></i>
+           <a  href="#section1"><i  style="color:white"class="bi bi-chevron-down"></i></a>
         </div>
       </div>
     </div>
   </header>
-  <section class="py-2 text-center">
+
+
+
+  <section  id="section1"  class="py-2 text-center">
     <div class="container p-3">
       <div class="row gx-5">
         <div class="col-md-6 col-12 py-3">
@@ -60,7 +63,74 @@
         </div>
       </div>
   </section>
-<footer class="mt-2" style="background-color:#2a2e32; color:white">
+
+  <section class="py-2 text-center" style="background-color:#2a2e32; color:white">
+    <div class="container p-3">
+      <div class="row gx-5">
+        <div class="col-12">
+          <h1 class="py-4">About Us</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <img style="width:100%" src="https://placehold.co/600x400" alt="...">
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <section id="faqs" class="py-2 text-center">
+    <div class="container p-3">
+      <div class="row gx-5">
+        <div class="col-12">
+          <h1 class="py-4">FAQs</h1>
+          
+          <div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Accordion Item #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </section>
+
+
+<footer class="mt-5" style="background-color:#2a2e32; color:white">
   <div class="container-fluid">
     <footer class="p-5">
       <div class="row py-5">
@@ -70,7 +140,7 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Home</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Privacy Policy</a></li>
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">Terms Of Use</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 ">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#faqs" class="nav-link p-0 ">FAQs</a></li>
           </ul>
         </div>
         <div class="col-md-6 p-2">
