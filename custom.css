@@ -71,7 +71,17 @@ html {
   border-color: #585a88;
 }
 
-.accordion-item {
+
+.accordion-button  {
+background: #03bfa6 !important;
+color: white !important;
+}
+
+.accordion-button::after {
+  color: white;
+}
+
+.accordion{
   /* border-top: none;
   border-left: none;
   border-right: none; */
