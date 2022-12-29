@@ -8,7 +8,7 @@ p, a, li {
 }
 
 .hero {
-  color: white;
+  color: #2f2e41;
   height: 100vh;
   min-height: 500px;
   width: 100%;
@@ -20,7 +20,7 @@ p, a, li {
 }
 
 .navbar-brand, .navbar-brand:hover {
- color: white; 
+ color: #2f2e41; 
 }
 
 .bg-light {
@@ -132,6 +132,6 @@ font-family: 'Montserrat';
 
 
 .nav-link {
-  color : white !important;
+  color : #2f2e41 !important;
   font-size: smaller;
 }
