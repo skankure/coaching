@@ -41,3 +41,13 @@ p, a, li {
 html {
   scroll-behavior: smooth;
 }
+
+.btn-primary {
+  background-color: #e7a728;
+  border-color: #e7a728;
+}
+
+.btn-primary:hover {
+  background-color: #ce9629;
+  border-color: #ce9629;
+}
