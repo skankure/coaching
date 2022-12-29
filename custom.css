@@ -145,3 +145,23 @@ font-family: 'Montserrat';
   color : #2f2e41 !important;
   font-size: smaller;
 }
+
+
+
+
+
+#div1, #div2 , #div3, #div4, #div5 {
+  position: relative;
+  animation: mymove 2s;
+}
+
+#div1 {animation-timing-function: linear;}
+#div2 {animation-timing-function: ease;}
+#div3 {animation-timing-function: ease-in;}
+#div4 {animation-timing-function: ease-out;}
+#div5 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+  from {top: -100px;}
+  to {top: 0;}
+}
