@@ -29,6 +29,6 @@ p, a, li {
 
 .list-unstyled > li {
 
-    padding-right:1rem;
+    padding-right:1rem !important;
   
 }
