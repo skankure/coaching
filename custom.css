@@ -20,8 +20,13 @@ p, a, li {
 }
 
 .navbar-brand, .navbar-brand:hover {
- /* color: white; */
+ color: white; 
 }
+
+.bg-light {
+  background-color: #ffcaca !important;
+}
+
 
 .bi {
   vertical-align: -.125em;
@@ -81,9 +86,7 @@ font-family: 'Montserrat';
 }
 
 
-.bg-light {
-  background-color: white !important;
-}
+
 
 
 .hero-2 {
