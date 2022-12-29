@@ -1,12 +1,9 @@
 
-
-
-
 p, a, li {
   font-family: Montserrat;
 }
 
-.sub-header, h1, h2, h3, h4, .btn {
+.sub-header, h1, h2, h3, h4, h5 .btn {
   font-family: Italiana;
 }
 
@@ -23,4 +20,15 @@ p, a, li {
 
 .navbar-brand, .navbar-brand:hover {
   color: white;
+}
+
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+
+.list-unstyled > li {
+
+    padding-right:1rem;
+  
 }
