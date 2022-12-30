@@ -29,7 +29,7 @@ h5,
 }
 
 .list-unstyled>li {
-  padding-right: 2rem !important;
+  padding-right: 1rem !important;
 }
 
 .custom-nav>.nav-link {
@@ -112,6 +112,16 @@ h5,
   color: white;
 }
 
+.section-10{
+  min-height: 400px;
+  text-align: center;
+  background-image: url('circle-scatter-haikei.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  
+}
+
 @media (max-width: 768px) {
   .custom-accordion {
     margin: 1.5rem;
@@ -156,8 +166,8 @@ h5,
 }
 
 .custom-footer-row-1 {
-  margin-left: 4.5rem;
-  margin-right: 4.5rem;
+ /* margin-left: 4.5rem; */
+ /* margin-right: 4.5rem; */
 }
 
 .subscribe-button {
@@ -176,4 +186,58 @@ h5,
 
 .email {
   margin-left: 2px;
+}
+
+
+@media (max-width: 768px) {
+  .footer-container {
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 991px) {
+  .footer-container {
+    margin: 6.5rem;
+  }
+}
+
+.footer-custom {
+  background-color: #2a2e32;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footer-custom {
+    text-align: center;
+  }
+}
+
+
+.social-media-links {
+  justify-content: center;
+}
+
+
+.resources > li {
+  margin: 5px;
+}
+
+
+.resources-links > a:hover{
+  color: #e7a729 !important;
+  text-decoration: underline !important;
+}
+
+
+
+@media (min-width: 768px) {
+  .ready-for-love-header {
+    font-size: 80px !important;
+  }
+  
+}
+
+.navbar-toggler {
+  border: none !important;
+
 }
