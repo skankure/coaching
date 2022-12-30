@@ -165,11 +165,6 @@ h5,
   color: white;
 }
 
-.custom-footer-row-1 {
- /* margin-left: 4.5rem; */
- /* margin-right: 4.5rem; */
-}
-
 .subscribe-button {
   background-color: #e7a729;
   border-color: #e7a729;
@@ -229,7 +224,6 @@ h5,
 }
 
 
-
 @media (min-width: 768px) {
   .ready-for-love-header {
     font-size: 80px !important;
@@ -248,7 +242,6 @@ h5,
 }
 
 .header-animation {animation-timing-function: ease-in;}
-
 
 @keyframes mymove {
   from {top: -100px;}
