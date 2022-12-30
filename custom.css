@@ -241,3 +241,16 @@ h5,
   border: none !important;
 
 }
+
+.header-animation {
+  position: relative;
+  animation: mymove 1s;
+}
+
+.header-animation {animation-timing-function: ease-in;}
+
+
+@keyframes mymove {
+  from {top: -100px;}
+  to {top: 0;}
+}
